@@ -14,7 +14,11 @@ It combines semantic segmentation (U-Net & SegFormer-B3) with a USDA FoodData Ce
 
 
 Code  Structure
+
 calorie_estimation.py → Early data loading and plots,and top 10 class like that.
+
 project_code_final__2.py → Main training pipeline on unet model.
+
 segmodel_2.py → SegFormer-B3 model definition & loading, training pipeline segmodel.
+
 results.py →Show the output of my best model which got miou 0.44 ,upload a image and show the calories estimation
